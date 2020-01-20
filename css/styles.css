@@ -135,6 +135,11 @@ p {
   background-color: #ff4c68;
   color: #fff;
   text-align: center;
+  font-family: "Montserrat-Bold",sans-serif;
+}
+
+.cta-body {
+  padding: 5rem 0 0;
 }
 
 /* footer */
