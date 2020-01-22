@@ -1,39 +1,45 @@
 
 body {
   font-family: 'Montserrat',sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-h1 {
-  font-family: 'Montserrat-Black',sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat-Bold",sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold",sans-serif;
   font-weight: 900;
 }
 
 p {
   color: #464159;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat-Black',sans-serif;
+  font-style: normal;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -56,6 +62,13 @@ p {
   font-family: 'Montserrat-Light';
 }
 
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* Download Button */
 .download-button {
   margin: 5% 3% 5% 0%;
@@ -71,14 +84,14 @@ p {
 
 /* features */
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
+}
 
+.feature-title {
+  font-size: 1.5rem;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -93,13 +106,13 @@ p {
 
 /* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -111,7 +124,6 @@ p {
 /* Press */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding: 3%;
 }
 
@@ -123,7 +135,11 @@ p {
 /* Pricing */
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-col {
@@ -131,22 +147,8 @@ p {
 }
 
 /* Call to Action */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: center;
-  font-family: "Montserrat-Bold",sans-serif;
-}
-
-.cta-body {
-  padding: 5rem 0 0;
-}
 
 /* footer */
-#footer {
-  background-color: #fff;
-  text-align: center;
-}
 
 .social-icon {
   margin: 20px 10px;
